@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61277AD1523A3CD0095973A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61277AC1523A3CD0095973A /* UIKit.framework */; };
+		B61277AF1523A3CD0095973A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61277AE1523A3CD0095973A /* Foundation.framework */; };
+		B61277B11523A3CD0095973A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61277B01523A3CD0095973A /* CoreGraphics.framework */; };
+		B61277B71523A3CD0095973A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B61277B51523A3CD0095973A /* InfoPlist.strings */; };
+		B61277B91523A3CD0095973A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B61277B81523A3CD0095973A /* main.m */; };
+		B61277BD1523A3CD0095973A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B61277BC1523A3CD0095973A /* AppDelegate.m */; };
+		B61277C01523A3CD0095973A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61277BF1523A3CD0095973A /* ViewController.m */; };
+		B61277C31523A3CE0095973A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61277C11523A3CE0095973A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B61277A81523A3CD0095973A /* panoramaGeneric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = panoramaGeneric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61277AC1523A3CD0095973A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B61277AE1523A3CD0095973A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B61277B01523A3CD0095973A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B61277B41523A3CD0095973A /* panoramaGeneric-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "panoramaGeneric-Info.plist"; sourceTree = "<group>"; };
+		B61277B61523A3CD0095973A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B61277B81523A3CD0095973A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B61277BA1523A3CD0095973A /* panoramaGeneric-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "panoramaGeneric-Prefix.pch"; sourceTree = "<group>"; };
+		B61277BB1523A3CD0095973A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B61277BC1523A3CD0095973A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B61277BE1523A3CD0095973A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B61277BF1523A3CD0095973A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B61277C21523A3CE0095973A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61277A51523A3CD0095973A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61277AD1523A3CD0095973A /* UIKit.framework in Frameworks */,
+				B61277AF1523A3CD0095973A /* Foundation.framework in Frameworks */,
+				B61277B11523A3CD0095973A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B612779D1523A3CD0095973A = {
+			isa = PBXGroup;
+			children = (
+				B61277B21523A3CD0095973A /* panoramaGeneric */,
+				B61277AB1523A3CD0095973A /* Frameworks */,
+				B61277A91523A3CD0095973A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61277A91523A3CD0095973A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61277A81523A3CD0095973A /* panoramaGeneric.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61277AB1523A3CD0095973A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B61277AC1523A3CD0095973A /* UIKit.framework */,
+				B61277AE1523A3CD0095973A /* Foundation.framework */,
+				B61277B01523A3CD0095973A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61277B21523A3CD0095973A /* panoramaGeneric */ = {
+			isa = PBXGroup;
+			children = (
+				B61277BB1523A3CD0095973A /* AppDelegate.h */,
+				B61277BC1523A3CD0095973A /* AppDelegate.m */,
+				B61277BE1523A3CD0095973A /* ViewController.h */,
+				B61277BF1523A3CD0095973A /* ViewController.m */,
+				B61277C11523A3CE0095973A /* ViewController.xib */,
+				B61277B31523A3CD0095973A /* Supporting Files */,
+			);
+			path = panoramaGeneric;
+			sourceTree = "<group>";
+		};
+		B61277B31523A3CD0095973A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61277B41523A3CD0095973A /* panoramaGeneric-Info.plist */,
+				B61277B51523A3CD0095973A /* InfoPlist.strings */,
+				B61277B81523A3CD0095973A /* main.m */,
+				B61277BA1523A3CD0095973A /* panoramaGeneric-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61277A71523A3CD0095973A /* panoramaGeneric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61277C61523A3CE0095973A /* Build configuration list for PBXNativeTarget "panoramaGeneric" */;
+			buildPhases = (
+				B61277A41523A3CD0095973A /* Sources */,
+				B61277A51523A3CD0095973A /* Frameworks */,
+				B61277A61523A3CD0095973A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = panoramaGeneric;
+			productName = panoramaGeneric;
+			productReference = B61277A81523A3CD0095973A /* panoramaGeneric.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B612779F1523A3CD0095973A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B61277A21523A3CD0095973A /* Build configuration list for PBXProject "panoramaGeneric" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B612779D1523A3CD0095973A;
+			productRefGroup = B61277A91523A3CD0095973A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61277A71523A3CD0095973A /* panoramaGeneric */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61277A61523A3CD0095973A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61277B71523A3CD0095973A /* InfoPlist.strings in Resources */,
+				B61277C31523A3CE0095973A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61277A41523A3CD0095973A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61277B91523A3CD0095973A /* main.m in Sources */,
+				B61277BD1523A3CD0095973A /* AppDelegate.m in Sources */,
+				B61277C01523A3CD0095973A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B61277B51523A3CD0095973A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61277B61523A3CD0095973A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B61277C11523A3CE0095973A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61277C21523A3CE0095973A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B61277C41523A3CE0095973A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B61277C51523A3CE0095973A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61277C71523A3CE0095973A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "panoramaGeneric/panoramaGeneric-Prefix.pch";
+				INFOPLIST_FILE = "panoramaGeneric/panoramaGeneric-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B61277C81523A3CE0095973A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "panoramaGeneric/panoramaGeneric-Prefix.pch";
+				INFOPLIST_FILE = "panoramaGeneric/panoramaGeneric-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61277A21523A3CD0095973A /* Build configuration list for PBXProject "panoramaGeneric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61277C41523A3CE0095973A /* Debug */,
+				B61277C51523A3CE0095973A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61277C61523A3CE0095973A /* Build configuration list for PBXNativeTarget "panoramaGeneric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61277C71523A3CE0095973A /* Debug */,
+				B61277C81523A3CE0095973A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B612779F1523A3CD0095973A /* Project object */;
+}
