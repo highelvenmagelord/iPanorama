@@ -73,6 +73,14 @@
 
 - (void)injectContentPanes
 {
+    // We shall retrieve each content pane and wrap it in
+    // a scrollview which we shall then inject into the
+    // content scroll view. This is so that we can have
+    // both localized and global scrolling if needed.
+    // The content pane scroll views will be placed taking into
+    // consideration the padding specified for that particular
+    // element.
+    int numberOfContentPanes = [[_contentSource numberOfContentPanes] intValue];
     
 }
 

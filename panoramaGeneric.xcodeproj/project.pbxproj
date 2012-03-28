@@ -15,6 +15,7 @@
 		B61277BD1523A3CD0095973A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B61277BC1523A3CD0095973A /* AppDelegate.m */; };
 		B61277C01523A3CD0095973A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61277BF1523A3CD0095973A /* ViewController.m */; };
 		B61277C31523A3CE0095973A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61277C11523A3CE0095973A /* ViewController.xib */; };
+		B61277CE1523BEE50095973A /* PanoramaContentPane.m in Sources */ = {isa = PBXBuildFile; fileRef = B61277CD1523BEE50095973A /* PanoramaContentPane.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		B61277BE1523A3CD0095973A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B61277BF1523A3CD0095973A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B61277C21523A3CE0095973A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B61277CC1523BEE50095973A /* PanoramaContentPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaContentPane.h; sourceTree = "<group>"; };
+		B61277CD1523BEE50095973A /* PanoramaContentPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaContentPane.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				B61277BF1523A3CD0095973A /* ViewController.m */,
 				B61277C11523A3CE0095973A /* ViewController.xib */,
 				B61277B31523A3CD0095973A /* Supporting Files */,
+				B61277CC1523BEE50095973A /* PanoramaContentPane.h */,
+				B61277CD1523BEE50095973A /* PanoramaContentPane.m */,
 			);
 			path = panoramaGeneric;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				B61277B91523A3CD0095973A /* main.m in Sources */,
 				B61277BD1523A3CD0095973A /* AppDelegate.m in Sources */,
 				B61277C01523A3CD0095973A /* ViewController.m in Sources */,
+				B61277CE1523BEE50095973A /* PanoramaContentPane.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

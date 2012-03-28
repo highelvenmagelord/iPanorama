@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PanoramaContentPane.h"
 
 @protocol PanoramaContentSource <NSObject>
 
 - (BOOL)hasBackgroundView;
-- (NSInteger *)numberOfContentPanes;
-- (UIView *)contentViewAtPosition:(int)position;
+- (NSNumber *)numberOfContentPanes;
+- (PanoramaContentPane *)contentViewAtPosition:(int)position;
 - (CGFloat)paddingForContentViewAtPosition:(int)position;
 - (UIView *)viewForBackground;
 - (CGSize)sizeForBackgroundView;
