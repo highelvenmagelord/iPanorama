@@ -1,10 +1,8 @@
-//
-//  AppDelegate.h
-//  panoramaGeneric
-//
-//  Created by Applico on 3/28/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+/*
+ AppDelegate.h
+ 
+ Author: ainren
+ */
 
 #import <UIKit/UIKit.h>
 

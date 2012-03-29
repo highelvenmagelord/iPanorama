@@ -1,10 +1,8 @@
-//
-//  ViewController.m
-//  panoramaGeneric
-//
-//  Created by Applico on 3/28/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+/*
+    ViewController.m
+ 
+    Author: ainren
+*/
 
 #import "ViewController.h"
 
